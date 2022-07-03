@@ -1,0 +1,16 @@
+{
+  "name": "lnkr",
+  "version": "0.0.0",
+  "description": "Blazing fast, minimalistic link shortener.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --watch ./src ./src/index.ts"
+  },
+  "author": "Andrew Nyzhnyk",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
